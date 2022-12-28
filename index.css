@@ -1,0 +1,111 @@
+body{
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	background-color: #0d54c7;
+	text-align: center;
+	color: #41d572;;
+}
+h1, h4, p{
+	color: #4bacd5;
+}
+a:link, a:visited, a:hover, a:active{
+	color:#f125ff;
+	text-decoration: underline #f125ff;
+}
+#top, #main, #player, #bottom{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(62,78,78,0.5);
+}
+.music{
+	width: 800px;
+	height: 22px;
+	background-color: #347ebf;
+}
+.name, .note, .link{
+	height: 20px;
+	float: left;
+}
+.name{
+	width: 200px;
+	background-color: rgba(10, 10, 10, 0.2);
+}
+.note{
+	width: 300px;
+	background-color: rgba(20, 20, 20, 0.3);
+}
+.link{
+	width: 300px;
+	background-color: rgba(10, 10, 10, 0.2);
+}
+/* 显示面板 */
+#axis{
+	width: 600px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #105d22;
+}
+#axis-inner{
+	width: 600px;
+	height: 20px;
+	background-color: #40cf1f;
+}
+#out{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #347ebf;
+}
+#name, #time{
+	width: 300px;
+	height: 20px;
+	float: left;
+	background-color: rgba(10, 10, 10, 0.2);
+}
+#link{
+	width: 600px;
+	height: 20px;
+	background-color: rgba(10, 10, 10, 0.2);
+}
+/* 控制面板 */
+#control{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #347ebf;
+}
+#pause, #stop, #last, #next{
+	width: 150px;
+	height: 20px;
+	float: left;
+	background-color: rgba(10, 10, 10, 0.2);
+}
+#volume, #timeset{
+	width: 300px;
+	height: 20px;
+	float: left;
+	background-color: rgba(10, 10, 10, 0.2);
+}
+#volume-range{
+	width: 200px;
+}
+#timeset-range{
+	width: 150px;
+	color: #41d572;
+	border: #41d572 solid 1px;
+	background-color: rgba(0, 0, 0, 0);
+}
+#timeset-btn{
+	width: 50px;
+	color: #41d572;
+	border: none;
+	background-color: rgba(10, 10, 10, 0.5);
+}
+#mode-0, #mode-1, #mode-2{
+	width: 200px;
+	height: 20px;
+	float: left;
+	background-color: rgba(10, 10, 10, 0.2);	
+}
