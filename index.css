@@ -103,7 +103,7 @@ a:link, a:visited, a:hover, a:active{
 	border: none;
 	background-color: rgba(10, 10, 10, 0.5);
 }
-#mode-0, #mode-1, #mode-2{
+#playMode-0, #playMode-1, #playMode-2{
 	width: 200px;
 	height: 20px;
 	float: left;
