@@ -12,14 +12,16 @@ var note = [
 ];
 // 音乐id
 var id = [
-	1876939145, 1987806566
+	1876939087, 1877154230, 1882625817, 1877150616, 1877153876,
+	1876939145, 1876939921, 1877154652, 1877153935, 1882625816,
+	1966149345, 1877903106, 1877154641, 1991282195, 1876939925
+	
 ];
 var num = title.length;
 var p;
 var main;
 var list = [];
 var current;
-var log = [];
 var autoMode;
 
 // 加载列表并初始化
@@ -43,7 +45,6 @@ function load(){
 // 播放并显示
 function doPlay(index){
 	current = index;
-	log[log.length] = index;
 	
 	let url = "http://music.163.com/song/media/outer/url?id=" + id[index] + ".mp3";
 	p.src = url;
@@ -86,10 +87,10 @@ function time(){
 
 // 播放模式
 function mode(index){
-	for(let i = 0; i < 4; i ++){
-		document.getElementById("mode-" + i).style.backgroundColor = "rgba(10, 10, 10, 0.2)";
+	for(let i = 0; i < 3; i ++){
+		document.getElementById("playMode-" + i).style.backgroundColor = "rgba(10, 10, 10, 0.2)";
 	}
-	document.getElementById("mode-" + index).style.backgroundColor = "rgba(10, 10, 10, 0.5)";
+	document.getElementById("playMode-" + index).style.backgroundColor = "rgba(10, 10, 10, 0.5)";
 	switch (index){
 		case 0:
 			p.loop = false;
@@ -100,6 +101,7 @@ function mode(index){
 			autoMode = false;
 			break;
 		case 2:
+			p.loop = false;
 			autoMode = true;
 			window.setInterval("auto(1);", 1000);
 			break;
@@ -120,10 +122,10 @@ function ctrl(index){
 			window.location.href = "index.html";
 			break;
 		case "last":
-			if(log.length > 1){
-				doPlay(log[log.length - 2]);
+			if(current > 0){
+				doPlay(current -1);
 			}else{
-				doPlay(0);
+				window.location.href = "index.html";
 			}
 			break;
 		case "next":
