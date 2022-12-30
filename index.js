@@ -2,20 +2,28 @@
 var title = [
 	"Terrasphere", "R", "Rainbow Chaser", "Timeline", "Mad Piano Patry II",
 	"Prominence", "Skyscape", "Indigo Sky", "Sinkhole", "별이 보이지 않는 밤",
-	"Kaleidoscope", "Event Horizon", "Vanilla Flavored Soda", "Lunar Dance", "Paragon"
+	"Kaleidoscope", "Event Horizon", "Vanilla Flavored Soda", "Lunar Dance", "Paragon",
+	"The Protester", "황혼의 마을", "변화하는 세계의 바깥에서", "Anti-Sentiment", "For Higher Movement",
+	"Cloudstep", "Minute Romance", "Atlas", "VirtualWorld Diary", "Crystal Eye",
+	"Sagittarius"
 ];
 // 备注
 var note = [
 	"地球圈", "小雪花", "彩虹追逐者 (2021 Remark)", "时间线", "疯狂钢琴派对2",
 	"日冕层", "天空景观", "靛蓝天空", "", "看不见星星的夜晚 (2021 Remark)",
-	"万花筒", "事件视界 (2020 Ver.)", "香草苏打", "月舞", "典范"
+	"万花筒", "事件视界 (2020 Ver.)", "香草苏打", "月舞", "典范",
+	"(With HyuN)", "暮光镇", "在变化的世界之外", "", "",
+	"云中漫步", "分秒浪漫", "", "", "水晶之眼",
+	"(Extended Ver.)"
 ];
 // 音乐id
 var id = [
 	1876939087, 1877154230, 1882625817, 1877150616, 1877153876,
 	1876939145, 1876939921, 1877154652, 1877153935, 1882625816,
-	1966149345, 1877903106, 1877154641, 1991282195, 1876939925
-	
+	1966149345, 1877903106, 1877154641, 1991282195, 1876939925,
+	2005524138, 2005520286, 2005520287, 2005520288, 2005520290,
+	2005524139, 2005520293, 2002646118, 2002646120, 2002646121,
+	2002646122
 ];
 var num = title.length;
 var p;
