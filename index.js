@@ -120,7 +120,7 @@ function mode(index){
 function ctrl(index){
 	switch (index){
 		case "pause":
-			if(p.pause){
+			if(p.paused){
 				p.play();
 			}else{
 				p.pause();
