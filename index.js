@@ -5,7 +5,7 @@ var title = [
 	"Kaleidoscope", "Event Horizon", "Vanilla Flavored Soda", "Lunar Dance", "Paragon",
 	"The Protester", "황혼의 마을", "변화하는 세계의 바깥에서", "Anti-Sentiment", "For Higher Movement",
 	"Cloudstep", "Minute Romance", "Atlas", "VirtualWorld Diary", "Crystal Eye",
-	"Sagittarius"
+	"Sagittarius", "Tempest"
 ];
 // 备注
 var note = [
@@ -14,7 +14,7 @@ var note = [
 	"万花筒", "事件视界 (2020 Ver.)", "香草苏打", "月舞", "典范",
 	"(With HyuN)", "暮光镇", "在变化的世界之外", "", "",
 	"云中漫步", "分秒浪漫", "", "", "水晶之眼",
-	"(Extended Ver.)"
+	"(Extended Ver.)", ""
 ];
 // 音乐id
 var id = [
@@ -23,7 +23,7 @@ var id = [
 	1966149345, 1877903106, 1877154641, 1991282195, 1876939925,
 	2005524138, 2005520286, 2005520287, 2005520288, 2005520290,
 	2005524139, 2005520293, 2002646118, 2002646120, 2002646121,
-	2002646122
+	2002646122, 1876939920
 ];
 var num = title.length;
 var p;
